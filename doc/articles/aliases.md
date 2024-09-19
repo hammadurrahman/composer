@@ -107,7 +107,7 @@ and alias it to `1.0.x-dev`.
 > installing A will make B require `1.0.x-dev`, which may exist as a branch
 > alias or an actual `1.0` branch. If it does not, it must be
 > inline-aliased again in A's `composer.json`.
-
+            "dev-main": "1.0.x-dev"
 > **Note:** Inline aliasing should be avoided, especially for published
 > packages/libraries. If you found a bug, try to get your fix merged upstream.
 > This helps to avoid issues for users of your package.
